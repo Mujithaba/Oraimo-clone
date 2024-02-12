@@ -45,24 +45,21 @@
    
 
 }
-.info {
+#info {
     margin-left: 10px ;
 }
 
-.para-1,
-.para-2,
-.para-3,
-.para-4,
-.para-5 {
-    margin-left: 50px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+.para-1
+ {
+  /* margin-left: 50px; */
+ 
+    
+   
     font-size: 13px;
 }
 
 /* using media query for hide some content in small devices*/
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .info {
       display: none;
     }
@@ -79,7 +76,7 @@
     .accordion{
       display:none;
     }
-  }
+  } */
 
   
   .list {
@@ -97,6 +94,7 @@
   .footer-bar {
     border: 1px solid rgb(0, 0, 0);
     border-bottom: 10px;
+    border-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
